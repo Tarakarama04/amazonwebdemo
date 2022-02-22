@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="./amazonform.css">
+    <script src="./javaform.js"></script>
+</head>
+<body>
+
+    <div>
+        <h2> Registration form</h2>
+ <form >
+     <input id='usname' type="text"  placeholder="user name" required >
+     <input id="pswrd" type="password"  placeholder="password" required>
+     <input id="mbl" type="number"  placeholder="mobile number" onchange="mobilenumberdata()" required >
+     <input id="eml" type="email" placeholder=" email ID" required>
+     
+     <button id="formbutton" onclick="mobilenumberdata(),registrationform()"> submit </button>
+
+ </form>
+   </div> 
+</body>
+</html>

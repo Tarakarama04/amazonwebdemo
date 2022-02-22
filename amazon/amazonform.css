@@ -1,0 +1,45 @@
+:root{
+    --col:rgb(231, 220, 220);
+    --btnclr: rgb(226, 171, 68,0.8);
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btnclr);
+}
+h1{
+    color:var(--btnclr);
+    text-align: center;
+}
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 15px;
+    height: 500px;
+    width:450px;
+    background-color: var(--col);
+    border:5px solid orangered;
+}
+form{
+    padding-left: 10%;
+}
+input{
+    width:80%;
+    height:30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+button{
+    width:25%;
+    border-radius: 10px;
+    background-color: var(--btnclr);
+    margin-left: 25%;
+}
+@media screen {
+    
+}
